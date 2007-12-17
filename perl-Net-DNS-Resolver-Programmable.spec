@@ -13,7 +13,6 @@ BuildRequires:	perl-Module-Build
 BuildRequires:	perl-Net-DNS
 BuildRequires:	perl-version
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Net::DNS::Resolver::Programmable is a Net::DNS::Resolver descendant class that
