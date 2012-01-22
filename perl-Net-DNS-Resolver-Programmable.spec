@@ -3,7 +3,7 @@
 Summary:	Programmable DNS resolver class for offline emulation of DNS
 Name:		perl-%{real_name}
 Version:	0.003
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
