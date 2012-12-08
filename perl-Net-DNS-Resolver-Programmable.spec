@@ -42,3 +42,44 @@ rm -rf %{buildroot}
 %doc CHANGES LICENSE README TODO
 %{perl_vendorlib}/Net/DNS/Resolver/*.pm
 %{_mandir}/*/*
+
+
+%changelog
+* Sun Jan 22 2012 Oden Eriksson <oeriksson@mandriva.com> 0.003-7mdv2012.0
++ Revision: 765525
+- rebuilt for perl-5.14.2
+
+* Sat Jan 21 2012 Oden Eriksson <oeriksson@mandriva.com> 0.003-6
++ Revision: 764041
+- rebuilt for perl-5.14.x
+
+* Wed May 04 2011 Oden Eriksson <oeriksson@mandriva.com> 0.003-5
++ Revision: 667271
+- mass rebuild
+
+* Thu Sep 03 2009 Christophe Fergeau <cfergeau@mandriva.com> 0.003-4mdv2011.0
++ Revision: 426540
+- rebuild
+
+* Wed Jun 18 2008 Thierry Vignaud <tv@mandriva.org> 0.003-3mdv2009.0
++ Revision: 223851
+- rebuild
+
+* Thu Mar 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.003-2mdv2008.1
++ Revision: 180497
+- rebuild
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Jul 02 2007 Oden Eriksson <oeriksson@mandriva.com> 0.003-1mdv2008.0
++ Revision: 47036
+- Import perl-Net-DNS-Resolver-Programmable
+
+
+
+* Mon Jul 02 2007 Oden Eriksson <oeriksson@mandriva.com> 0.003-1mdv2008.0
+- initial Mandriva package 
