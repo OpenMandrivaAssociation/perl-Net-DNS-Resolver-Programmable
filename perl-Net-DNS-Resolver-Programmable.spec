@@ -22,7 +22,7 @@ means for retrieving DNS records, or even generating them on the fly.
 
 %prep
 
-%setup -qn %{modname}-v%{version} 
+%setup -qn %{modname}-%{version} 
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
