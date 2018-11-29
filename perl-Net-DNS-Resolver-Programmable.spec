@@ -2,12 +2,12 @@
 
 Summary:	Programmable DNS resolver class for offline emulation of DNS
 Name:		perl-%{modname}
-Version:	0.003
-Release:	17
+Version:	0.009
+Release:	1
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JM/JMEHNLE/net-dns-resolver-programmable/%{modname}-v%{version}.tar.bz2
+Source0:	http://search.cpan.org/CPAN/authors/id/J/JM/JMEHNLE/net-dns-resolver-programmable/%{modname}-v%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl-Module-Build
@@ -22,7 +22,7 @@ means for retrieving DNS records, or even generating them on the fly.
 
 %prep
 
-%setup -qn %{modname}-v%{version} 
+%setup -qn %{modname}-%{version} 
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
