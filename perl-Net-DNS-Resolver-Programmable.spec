@@ -6,7 +6,7 @@ Version:	0.009
 Release:	2
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JM/JMEHNLE/net-dns-resolver-programmable/%{modname}-v%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
